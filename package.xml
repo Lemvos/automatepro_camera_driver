@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>lemvos_v4l2_camera</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <name>automatepro_camera_driver</name>
+  <version>0.1.0</version>
+  <description>meta-package for automatepro camera drivers </description>
   <maintainer email="balachandra.bhat@lemvos.com">ros</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

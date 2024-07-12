@@ -12,9 +12,9 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     config_directory = os.path.join(
-        get_package_share_directory('lemvos_v4l2_camera'),
+        get_package_share_directory('automatepro_camera_driver'),
         'config')
-    params = os.path.join(config_directory, 'config.yaml')
+    params = os.path.join(config_directory, 'camera_params.yaml')
     ld.add_action(
         Node(
             package='v4l2_camera',

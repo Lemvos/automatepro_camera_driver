@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(lemvos_v4l2_camera)
+project(automatepro_camera_driver)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
